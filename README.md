@@ -1,6 +1,6 @@
 # text-adventure-game
 
-This is a text-adventure game written in C, with a map stored in SQL, and played in the console. Navigate a fog covered maze that reveals itself the more you explore.
+This is a text-adventure game for the terminal. Navigate a fog covered maze that reveals itself the more you explore.
 
 # Most parts are not implemented yet
 
@@ -17,7 +17,8 @@ This is a text-adventure game written in C, with a map stored in SQL, and played
 
 ## Setting Up
 1. Clone the repository
-2. Compile the C program (e.g., `gcc main.c -o text_adventure`)
+2. Compile the C program (e.g., `gcc main.cpp -o text_adventure`)
 3. Run the game in your terminal using `./text_adventure`
+
 
 See [TODO.md] for planned features etc.
