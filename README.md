@@ -1,6 +1,6 @@
 # terminal-dungeon-crawler
 
-This is a basic dungeon-crawler game, used as a personal project to explore C++, concepts taught in my classes (ex. Conway's Game of Life, Greedy Algorithm), and linking scipts in different languages. This project embeds a Python interpreter inside a C++ host to link the two languages, and also uses SQL for persistent data.
+This is a basic dungeon-crawler game, used as a personal project to explore C++, concepts taught in my classes (ex. Conway's Game of Life, Greedy Algorithm), and linking scripts with different languages. This project embeds a Python interpreter inside a C++ host to link the two languages, and also uses SQL for persistent data.
 
 ## Gameplay
 * **`W`, `A`, `S`, `D`**: Move and Attack.
@@ -26,5 +26,6 @@ This is a basic dungeon-crawler game, used as a personal project to explore C++,
 - make
 3. Running the Game
 - ./text_adventure
+
 
 
