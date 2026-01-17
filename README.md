@@ -3,7 +3,7 @@
 This is a basic dungeon-crawler game, used as a personal project to explore C++, concepts taught in my classes (ex. Conway's Game of Life, Greedy Algorithm), and linking scipts in different languages. This project embeds a Python interpreter inside a C++ host to link the two languages, and also uses SQL for persistent data.
 
 ## Gameplay
-* **`W`, `A`, `S`, `D`**: Move and Attack (bump combat).
+* **`W`, `A`, `S`, `D`**: Move and Attack.
 * **`E`**: Interact / Pick up items.
 * **`X`**: Save & Quit.
 
@@ -18,7 +18,7 @@ This is a basic dungeon-crawler game, used as a personal project to explore C++,
 # Install GCC, Make, CMake, Python headers, and SQLite3
 -sudo apt-get install build-essential cmake python3-dev libsqlite3-dev
 2. Compilation
-# This project uses CMake to manage dependencies. Pybind11 will be automatically fetched during the build process; no manual installation is required.
+# This project uses CMake to manage dependencies. Pybind11 will be automatically fetched during building.
 - git clone https://github.com/MickyCD/text-adventure-game.git
 - mkdir build
 - cd build
@@ -26,4 +26,5 @@ This is a basic dungeon-crawler game, used as a personal project to explore C++,
 - make
 3. Running the Game
 - ./text_adventure
+
 
